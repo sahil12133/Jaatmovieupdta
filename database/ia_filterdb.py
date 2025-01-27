@@ -7,7 +7,7 @@ from pymongo.errors import DuplicateKeyError
 from umongo import Instance, Document, fields
 from motor.motor_asyncio import AsyncIOMotorClient
 from marshmallow.exceptions import ValidationError
-from info import English, mongodb+srv://sahil12133:<sahil12133>@cluster0.uv5j4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0,  cluster0, movies, 📂Fɪʟᴇ ɴᴀᴍᴇ:@jaatmoovies, 5, https://t.me/jaatmovie1231, OWNERID
+from info import CAPTION_LANGUAGES, DATABASE_URI, DATABASE_URI2, DATABASE_NAME, COLLECTION_NAME, USE_CAPTION_FILTER, MAX_B_TN, DEENDAYAL_MOVIE_UPDATE_CHANNEL, OWNERID 
 from utils import get_settings, save_group_settings, temp, get_movie_update_status
 from database.users_chats_db import add_name
 from .Imdbposter import get_movie_details, fetch_image
