@@ -55,6 +55,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('AUTH_CHANNEL', '-10
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sahil12133:<sahil12133>@cluster0.uv5j4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'movies')
 
