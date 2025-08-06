@@ -85,8 +85,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/jaatmovie1231/2169') 
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '7be18247ca5df8b2327b71465b8a0d3f84ad1aba')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/jaatmovie1231/2169')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
