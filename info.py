@@ -85,19 +85,19 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/jaatmovie1231/2169') 
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '7be18247ca5df8b2327b71465b8a0d3f84ad1aba')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fb9c72149b5fed6780d44e4868d90bccbb66db19')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/jaatmovie1231/2169')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/jaatmoovies')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/bindastvgroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/jaatmovie1231')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/mrjaat1322')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/jaatmovie1231')
-support_group_link = environ.get('support_group_link', 'https://t.me/+jqCOMNf8Ig4zYzFl')
+support_group_link = environ.get('support_group_link', 'https://t.me/jaatmoviediscuss')
 OWNERID = int(os.environ.get('OWNERID', '5600238153'))  # Replace with the actual admin ID
 
 # ============================
